@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-class GameViewModel : ViewModel() {f
+class GameViewModel : ViewModel() {
 
     private lateinit var currentWord: String
     private var _uiState = MutableStateFlow(GameUiState())
